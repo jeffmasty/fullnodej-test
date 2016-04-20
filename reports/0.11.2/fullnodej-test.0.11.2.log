@@ -1,0 +1,93 @@
+[main] INFO org.fullnodej.test.validation.Preconditions - PASSED balance: 0.0 unconfirmed: 0.0
+[main] INFO org.fullnodej.test.GetInfo - No transactions in mempool
+[main] INFO org.fullnodej.test.GetInfo - MiningInfo: 
+[main] INFO org.fullnodej.test.GetInfo - PASSED test Height:787141 Difficulty:2341243.66628338 NetHash/s:11996086478375
+[main] INFO org.fullnodej.test.validation.Blockchain - PASSED
+[main] INFO org.fullnodej.test.validation.ValidateAddress - PASSED
+[main] INFO org.fullnodej.test.validation.ValidateSignature - PASSED
+[main] INFO org.fullnodej.test.misc.TxIndex - PASSED
+[main] INFO org.fullnodej.test.validation.WalletAccounts - created account fullnodej-test1 with initial address movXJyVzwZKdRzXDCTxwwHgLQnLmQ9uRN3
+[main] INFO org.fullnodej.test.validation.WalletAccounts - created account fullnodej-test2 with initial address n2cxHGpZAHEBfDXMv8qNQ8HWQX9hmxDdZu
+[main] INFO org.fullnodej.test.validation.WalletAccounts - PASSED Wallet contains 4 addresses (0 unspent Utxo) and 3 accounts
+[main] INFO org.fullnodej.test.validation.WalletTransactions - SKIPPED wallet tx data not found
+[main] INFO org.fullnodej.test.misc.EstimateFees - PASSED Tx Fee per Kb set to estimate: 0.0002003
+[main] INFO org.fullnodej.test.misc.PingNodes - ping() not needed but altering the universe anyways (3 secs...)
+[main] INFO org.fullnodej.test.misc.PingNodes - 0.210548 95.110.231.193:18333 
+[main] INFO org.fullnodej.test.misc.PingNodes - 0.163168 52.29.130.210:18333 
+[main] INFO org.fullnodej.test.misc.PingNodes - 0.161871 188.130.244.12:18333 
+[main] INFO org.fullnodej.test.misc.PingNodes - 0.044783 130.211.116.22:18333 
+[main] INFO org.fullnodej.test.misc.PingNodes - 0.067652 167.114.82.80:18333 
+[main] INFO org.fullnodej.test.misc.PingNodes - 0.065481 192.241.226.119:18333 
+[main] INFO org.fullnodej.test.misc.PingNodes - 0.163473 176.9.113.75:18333 
+[main] INFO org.fullnodej.test.misc.PingNodes - 0.074995 52.23.162.139:18333 
+[main] INFO org.fullnodej.test.misc.PingNodes - PASSED *the more you know...
+[main] INFO org.fullnodej.test.misc.AddNode - [169.239.128.87:18333] connected:false added:false peers:8
+[main] INFO org.fullnodej.test.misc.AddNode - adding...
+[main] INFO org.fullnodej.test.misc.AddNode - [169.239.128.87:18333] connected:false added:true peers:8
+[main] INFO org.fullnodej.test.misc.Mempool - test starting, can be a lengthy process...
+[main] INFO org.fullnodej.test.misc.Mempool - PASSED
+[main] INFO org.fullnodej.test.misc.Mining - MiningInfo(blocks=787141, currentblocksize=0, currentblocktx=0, difficulty=2341243.66628338, errors=, genprocl
+imit=-1, networkhashps=8215279346114, pooledtx=1, testnet=true, chain=test, generate=false)
+[main] INFO org.fullnodej.test.misc.Mining - Mining now (check yer cpu monitor), sleep for 5 secs and see what happens...
+[main] INFO org.fullnodej.test.misc.Mining - MiningInfo(blocks=787141, currentblocksize=1224, currentblocktx=1, difficulty=2341243.66628338, errors=, genpr
+oclimit=1, networkhashps=8215279346114, pooledtx=1, testnet=true, chain=test, generate=true)
+[main] INFO org.fullnodej.test.misc.Mining - PASSED That was too fun, let's stop mining now.
+[main] INFO org.fullnodej.test.wallet.WalletBackup - PASSED
+[main] INFO org.fullnodej.test.wallet.WalletSupport - PASSED UNENCRYPTED
+[main] INFO org.fullnodej.test.wallet.SignMessage - PASSED with the mighty pen: mmMgbZP5pSrDsaFCPythVFHRsimdJ2XA1b
+[main] WARN org.fullnodej.test.wallet.ImportPrivateKey - new: mxviDTwCduA3iKteJHRx9v9h7ogRQqy8tx の account は fullnodej-1461166793757 です!
+[main] INFO org.fullnodej.test.wallet.ImportPrivateKey - PASSED
+[main] INFO org.fullnodej.test.wallet.DumpWallet - PASSED
+[main] INFO org.fullnodej.test.wallet.ImportWallet - SKIPPED
+[main] INFO org.fullnodej.test.wallet.KeyPoolRefill - PASSED keypool old: 101 new: 112
+[main] INFO org.fullnodej.test.wallet.EncryptWallet - SKIPPED Unencrypted and walletPassphrase not set: TESTDATA.properties
+[main] INFO org.fullnodej.test.wallet.WalletPassphraseChange - SKIPPED unencrypted wallet, data.walletPassphrase not set
+[main] WARN org.fullnodej.test.listeners.ZeroConfListener - Send bitcoins to mw9nJJo1k5QCHXqe8HAKwKqxSTnA1BUG9s within the next 20 minutes or the puppy get
+s it.
+[WalletNotify-msg1] INFO org.fullnodej.test.listeners.ZeroConfListener - investigating: 4d59568b963d65d134262fcddf94dc5c6a38b6c42c83729ffabe7e76795359eb
+[main] INFO org.fullnodej.test.listeners.ZeroConfListener - PASSED Cha-Ching: 0.06 BTC
+[SocketConnecter] INFO org.fullnodej.NotificationsImpl - Socket closed
+[main] INFO org.fullnodej.test.listeners.ConfirmationListener - Found unconfirmed tx: 4d59568b963d65d134262fcddf94dc5c6a38b6c42c83729ffabe7e76795359eb
+[main] WARN org.fullnodej.test.listeners.ConfirmationListener - Wallet Listener on port:7931 appears OK
+[main] WARN org.fullnodej.test.listeners.ConfirmationListener - The current height is 787141. I await() the miners... 
+[WalletNotify-msg2] INFO org.fullnodej.test.listeners.ConfirmationListener - walletNotify: 4d59568b963d65d134262fcddf94dc5c6a38b6c42c83729ffabe7e76795359eb
+[BlockNotify-msg3] INFO org.fullnodej.test.listeners.ConfirmationListener - block 787142 received
+[BlockNotify-msg3] INFO org.fullnodej.test.listeners.ConfirmationListener - still waiting for 1 confirmation(s)
+[BlockNotify-msg4] INFO org.fullnodej.test.listeners.ConfirmationListener - block 787143 received
+[main] INFO org.fullnodej.test.listeners.ConfirmationListener - PASSED confirmed at height 19: 4d59568b963d65d134262fcddf94dc5c6a38b6c42c83729ffabe7e767953
+59eb
+[SocketConnecter] INFO org.fullnodej.NotificationsImpl - Socket closed
+[main] INFO org.fullnodej.test.SendTransaction - Fee support required, using: 0.0002003
+[main] WARN org.fullnodej.test.SendTransaction - sending 0.05 to miTLTKqnBvEsUgV4K7wAsdLPEjNnyEFw8f "Thank you, sir, what a great library!  / Our Esteemed 
+Co-Tester"
+[main] INFO org.fullnodej.test.SendTransaction - PASSED sent tx: dbe34f5a92c01d26d92454f12d9e0787cc11d342580c26c622bd54b67171505d
+[main] INFO org.fullnodej.test.pingpong.PingPong - Dually noded: true, confirmations required: 2
+[main] INFO org.fullnodej.test.pingpong.PingPong - Ping player connected.
+[main] INFO org.fullnodej.test.pingpong.PingPong - Pong player connected, Let's Play...
+[main] INFO org.fullnodej.test.pingpong.PingPong -  ################################
+[main] INFO org.fullnodej.test.pingpong.PingPong -  #  PING PONG !                 #
+[main] INFO org.fullnodej.test.pingpong.PingPong -  #            ,;;;!!!!!;;.      #
+[main] INFO org.fullnodej.test.pingpong.PingPong -  #          :!!!!!!!!!!!!!!;    #
+[main] INFO org.fullnodej.test.pingpong.PingPong -  #        :!!!!!!!!!!!!!!!!!;   #
+[main] INFO org.fullnodej.test.pingpong.PingPong -  #       ;!!!!!!!!!!!!!!!!!!!;  #
+[main] INFO org.fullnodej.test.pingpong.PingPong -  #      ;!!!!!!!!!!!!!!!!!!!!!  #
+[main] INFO org.fullnodej.test.pingpong.PingPong -  #      ;!!!!!!!!!!!!!!!!!!!!'  #
+[main] INFO org.fullnodej.test.pingpong.PingPong -  #      ;!!!!!!!!!!!!!!!!!!!'   #
+[main] INFO org.fullnodej.test.pingpong.PingPong -  #       :!!!!!!!!!!!!!!!!'     #
+[main] INFO org.fullnodej.test.pingpong.PingPong -  #        ,!!!!!!!!!!!!!''      #
+[main] INFO org.fullnodej.test.pingpong.PingPong -  #     ,;!!!''''''''''          #
+[main] INFO org.fullnodej.test.pingpong.PingPong -  #   .!!!!'            ._       #
+[main] INFO org.fullnodej.test.pingpong.PingPong -  #  !!!!`              (_)      #
+[main] INFO org.fullnodej.test.pingpong.PingPong -  ################################
+[main] WARN org.fullnodej.test.pingpong.PingPong - Pinging 0.09977805 to mmMgbZP5pSrDsaFCPythVFHRsimdJ2XA1b
+[main] INFO org.fullnodej.test.pingpong.PingPong - Ping txid: 7a4ae856ee89d25354d57a266899b2cf086ead29ab37edfdd5a3ce3e247f970b
+[main] INFO org.fullnodej.test.pingpong.PingPong - Ping received at height 787143, I await() confirmation...
+[BlockNotify-msg7] WARN org.fullnodej.test.pingpong.PingPongPlayer - Block 787143 received by PING
+[BlockNotify-msg11] WARN org.fullnodej.test.pingpong.PingPongPlayer - Block 787144 received by PONG
+[BlockNotify-msg14] WARN org.fullnodej.test.pingpong.PingPongPlayer - Block 787144 received by PING
+[BlockNotify-msg16] WARN org.fullnodej.test.pingpong.PingPongPlayer - Block 787145 received by PONG
+[BlockNotify-msg17] WARN org.fullnodej.test.pingpong.PingPongPlayer - Block 787145 received by PING
+[main] INFO org.fullnodej.test.pingpong.PingPong - Ping Confirmed. The serve passes to Pong.
+[main] WARN org.fullnodej.test.pingpong.PingPong - Ponging 0.09957775 to n3WoK52YKLENc5A9Luqqr1Q9Mic1QhEhd7
+[main] INFO org.fullnodej.test.pingpong.PingPong - Pong txid: 344924bca54ad24029273a8e7e227e6220ba40f757445aa4cc9e450b03a717bc
+[main] INFO org.fullnodej.test.pingpong.PingPong - PASSED Pong Received. Thank you for playing, I hope to play again.
